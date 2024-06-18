@@ -260,7 +260,12 @@
 	}
 	
 	.container-fluid .outer-section .left-column{
-		display:none;
+		/* display:none; */
+		width:100%;
+	}
+
+	.container-fluid .outer-section .left-column .image{
+		margin-left: unset;
 	}
 	
 	.container-fluid .outer-section .right-column{

@@ -46,8 +46,8 @@
 
         <style>
             .main-header .header-upper .logo-outer {
-                padding-top: 20px;
-                padding-bottom: 35px;
+                padding-top: 5px;
+                padding-bottom: 5px;
             }
         </style>
         <!-- for page specific stylesheet -->

@@ -1,6 +1,6 @@
 <!-- main header -->
 <header class="elementskit-header main-header">
-	
+
     <div class="header-top">
         <div class="container ">
             <div class="top-outer clearfix">
@@ -14,17 +14,17 @@
         </div>
     </div>
     <!-- End Header Top -->
-    
+
     <!-- Header Upper -->
     <div class="header-upper"> <!-- xs-container -->
         <div class="container">
             <div class="xs-navbar clearfix">
-                
+
                 <div class="logo-outer">
-                    <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/images/zyonne_logo.png') }}" alt="zyonne" width="130"></a></div>
+                    <div class="logo"><a href="{{ route('index') }}"><img src="{{ asset('assets/images/zyonne_logo.png') }}" alt="zyonne" width="100"></a></div>
                 </div>
-                
-                <nav class="elementskit-navbar">
+
+                {{-- <nav class="elementskit-navbar">
 
                     <!-- start humberger (for offcanvas toggler) -->
                     <button class=" elementskit-menu-toggler xs-bold-menu">
@@ -62,7 +62,7 @@
                     <div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler">
                     </div>
                     <!-- end offcanvas overlay -->
-                </nav>
+                </nav> --}}
             </div>
         </div>
     </div>
